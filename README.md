@@ -20,7 +20,7 @@
 ### `⚒️ Tools ⚒️`
 
 * HTML, CSS and JavaScript;
-* JQuery, JQueryUI and MOJS;
+* JQuery, JQueryUI, Font-Awesome and MOJS;
 * FaceJS API;
 * Some Browser;
 * Java 13 version or later;
