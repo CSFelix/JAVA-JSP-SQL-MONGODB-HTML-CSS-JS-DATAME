@@ -45,7 +45,7 @@ localhost:8080/DataMe/index.jsp
 ----
 ### `✉️ Contact ✉️`
 
-> **Email:** `gabrielfelix08@outlook.com`
+> **Email:** `csfelix08@gmail.com`
 
 > **Linkedin:** `---`
 
