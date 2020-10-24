@@ -1,0 +1,18 @@
+/* foto de perfil */
+.profile-pic {
+	float: right; position: relative; height: 80px;
+    width: 80px; background-size: cover;
+    background-position: center; background-blend-mode: multiply;
+    border-radius: 50%; vertical-align: middle;
+    text-align: center; color: transparent;
+    text-decoration: none; transition: all .3s ease;
+}
+
+.profile-pic:hover {
+    background-color: rgba(0,0,0,.5); z-index: 10000;
+    color: #fff; transition: all .3s ease;
+    text-decoration: none;
+}
+
+.profile-pic span { display: inline-block; padding-top: 1.5em; }
+.profile-pic #fotoVisualizacao { background-color: #5e5e5a; }

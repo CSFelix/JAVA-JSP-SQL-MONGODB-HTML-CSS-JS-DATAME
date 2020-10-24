@@ -1,0 +1,37 @@
+/* Cores Tema Claro */
+:root {
+	--cor-fundo-primario: #cbced1;
+	--cor-fundo-secundario: #414649;
+	
+	--cor-neon-primaria: #f32132;
+	--cor-neon-secundaria: #eb8787;
+	--cor-neon-terciaria: #b81818;
+	
+	--linear-light: #d9dce0;
+	--linear-dark: #b7b9bc;
+	
+	--shadow-light: #ffffff;
+	--shadow-dark: #57595a;
+	
+	--font-awesome-icon-color: #222222;
+}
+
+/* Cores Tema Escuro */
+[data-theme="escuro"] {
+	--cor-fundo-primario: #414649;
+	--cor-fundo-secundario: #cbced1;
+	
+	--cor-neon-primaria: #2196f3;
+	--cor-neon-secundaria: #87ceeb;
+	--cor-neon-terciaria: #00008b;
+	
+	--cor-letra: #cbced1;
+	
+	--linear-light: #464b4e;
+	--linear-dark: #3b3f42;
+	
+	--shadow-light: #4b5154;
+	--shadow-dark: #373c3e;
+	
+	--font-awesome-icon-color: #dddddd;
+}

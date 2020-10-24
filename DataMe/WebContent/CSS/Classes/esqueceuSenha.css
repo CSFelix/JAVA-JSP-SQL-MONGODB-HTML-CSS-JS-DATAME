@@ -1,0 +1,2 @@
+.esqueceuSenha { color: var(--cor-fundo-secundario); }
+.esqueceuSenha:hover { text-decoration: underline; cursor: pointer; }

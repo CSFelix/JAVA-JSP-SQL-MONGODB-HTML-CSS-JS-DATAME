@@ -1,0 +1,11 @@
+.botao {
+	padding: 10px; outline: none;
+	color: var(--cor-fundo-secundario); border-radius: 10px;
+	border: 2px solid var(--cor-neon-primaria);
+	transition: 500ms ease,
+	            color 0.6s ease-out,
+	            box-shadow 0.3s ease 0.2s;
+}
+
+.botao:hover, .botao:active { background: var(--linear-dark); cursor: pointer; }
+.botao:active { transform: translate(5px, 5px); border: 2px solid var(--cor-neon-terciaria); }

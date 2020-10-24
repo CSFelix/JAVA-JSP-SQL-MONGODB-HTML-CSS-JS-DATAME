@@ -1,0 +1,5 @@
+.neomorphismo {
+	background:  linear-gradient(145deg, var(--linear-dark), var(--linear-light));
+	box-shadow:  20px 20px 60px var(--shadow-dark), 
+             	-20px -20px 60px var(--shadow-light);
+}

@@ -1,0 +1,4 @@
+.tabelaUsuarios { border-collapse: collapse;  border-radius: 5px; }
+.tabelaUsuarios tr { border: 2px solid var(--cor-fundo-secundario); opacity: 80%; }
+.tabelaUsuarios tr:hover { cursor: pointer; opacity: 100%; }
+.tabelaUsuarios th, .tabelaUsuarios td { border: 2px solid var(--cor-fundo-secundario);  padding: 5px;  text-align: center; }

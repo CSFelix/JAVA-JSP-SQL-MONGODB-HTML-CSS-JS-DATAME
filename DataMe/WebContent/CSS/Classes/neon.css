@@ -1,0 +1,5 @@
+.neon { 
+	box-shadow: 0px 0px 10px var(--cor-neon-primaria),
+			    0px 0px 20px var(--cor-neon-primaria),
+			    0px 0px 30px var(--cor-neon-primaria);
+}

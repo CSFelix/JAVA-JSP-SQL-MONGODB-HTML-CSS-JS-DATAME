@@ -1,0 +1,10 @@
+.formCadastroUsuario {
+	width: 90vw;
+	height: 60vh; padding: 20px 30px;  border-radius: 50px;
+	flex-direction: column; overflow-y: auto; text-align: center;
+}
+
+/* mobile */
+@media only screen and (max-width: 768px) {
+  .tabs { width: 60vw; }
+}

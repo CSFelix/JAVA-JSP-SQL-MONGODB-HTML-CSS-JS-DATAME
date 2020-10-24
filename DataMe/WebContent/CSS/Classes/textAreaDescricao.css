@@ -1,0 +1,5 @@
+/* descrição >> notícia em si (excluindo título) */
+.textAreaDescricao { width: 70vw; height: 50vh; }
+
+/* mobile */
+@media only screen and (max-width: 768px) { .textAreaDescricao { width: 40vw; } }

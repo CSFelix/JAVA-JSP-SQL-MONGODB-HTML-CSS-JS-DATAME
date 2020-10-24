@@ -1,0 +1,36 @@
+/* modal em si */
+.modal {
+  display: none;  position: fixed; z-index: 30; 
+  padding-top: 100px; left: 0; top: 0;
+  width: 100%; height: 100%;  overflow: auto; 
+  background-color: rgba(0,0,0,0.4);
+}
+
+/* conteúdo do modal */
+.modal-content {
+  margin: auto; padding: 20px;
+  border: 1px solid #var(--cor-fundo-secundario);
+  width: 80%; border-radius: 20px;
+}
+
+/* ícone para fechar modal */
+.close { color: #aaaaaa; float: right; font-size: 28px; font-weight: bold; }
+
+.close:hover, .close:focus { color: #000; text-decoration: none; cursor: pointer; }
+
+/*------------------*/
+
+/* Englobador de conteúdos do modal */
+.bloco { display: flex; flex-direction: row; }
+
+/* dados do modal */
+.dados { width: 60vh; }
+
+/* imagem de perfil do usuário dentro do modal */
+.foto { width: 40vh; }
+
+/* separador de conteúdos no modal */
+.separador { width: 10vh; }
+
+/* botões no modal */
+.botoesAlteracoes { width: 30vh; }

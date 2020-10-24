@@ -1,0 +1,6 @@
+.mensagemErro { 
+	width: 250px;  padding: 5px;
+	border-left: 5px solid red; background-color: #ff6666; /* vermelho alpha */
+	color: #990000; /* vermelho tendendo ao preto */
+	border-radius: 5px; text-align: center;
+}

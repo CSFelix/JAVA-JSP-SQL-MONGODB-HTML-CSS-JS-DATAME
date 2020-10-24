@@ -1,0 +1,6 @@
+.mensagemInformacao { 
+	width: 250px;  padding: 5px;
+	border-left: 5px solid blue; background-color: #66c9ff; /* azul alpha */
+	color: #004299; /* azul tendendo ao preto */
+	border-radius: 5px; text-align: center;
+}

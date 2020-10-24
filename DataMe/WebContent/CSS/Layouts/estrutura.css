@@ -1,0 +1,16 @@
+body { background-color: var(--cor-fundo-primario); color: var(--cor-fundo-secundario); }
+
+.header {
+	width: 100vw; height: 7vh;
+	background-color: transparent; display: flex;
+	box-shadow: 0 0px 0px 2px var(--cor-neon-primaria);
+}
+
+
+.container { width: 100vw; height: 88vh; background-color: transparent; }
+
+.footer {
+	width: 100vw; height: 5vh;
+	background-color: var(--cor-fundo-secundario);
+	color: var(--cor-fundo-primario);
+}

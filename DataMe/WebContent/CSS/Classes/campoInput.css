@@ -1,0 +1,7 @@
+.campoInput {
+	width: 250px /*!important*/; padding: 11px 8px 6px 8px;
+	color: var(--cor-fundo-secundario); border-bottom: solid 4px var(--cor-neon-secundaria);
+	line-height: 15px; font-size: 12px; transition: 240ms ease; border-radius: 5px;
+}
+
+.campoInput:focus, .campoInput:active { border-bottom: solid 4px var(--cor-neon-secundaria); outline: none; }

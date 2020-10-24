@@ -1,0 +1,6 @@
+.mensagemBiometria { 
+	width: 250px;  padding: 5px;
+	border-left: 5px solid var(--cor-neon-terciaria); background-color: var(--cor-neon-primaria);
+	color: var(--cor-neon-terciaria);
+	border-radius: 5px; text-align: center;
+}

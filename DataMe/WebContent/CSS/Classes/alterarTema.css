@@ -1,0 +1,29 @@
+/* Título */
+.tituloHeader { 
+	display: flex; align-items: center; opacity: 80%; 
+	text-shadow: 5px 5px 5px var(--cor-neon-primaria);
+}
+
+/* Alternador de temas */
+.trocar-modo { display: flex; align-items: center; margin-left: auto; }
+.trocar-modo em { text-shadow: 5px 5px 5px var(--cor-neon-primaria); opacity: 80%; }
+.trocar-modo .checkbox-modo { display: inline-block; position: relative; width: 60px; height: 34px; }
+.trocar-modo .checkbox-modo input { display: none; } /* retira visualização do checkbox */
+
+/* Efeito d movimentação do alternador de modos */
+.trocar-modo .deslize {
+  position: absolute; top: 0; left: 0; bottom: 0; right: 0;
+  background-color: var(--cor-neon-terciaria); cursor: pointer;
+  transition: .4s;
+}
+
+.trocar-modo .deslize:before {
+  position: absolute; left: 4px; bottom: 4px;
+  width: 26px; height: 26px;
+  background-color: var(--cor-fundo-primario);
+  content: ""; transition: .4s;
+}
+
+.trocar-modo input:checked + .deslize { background-color: var(--cor-neon-secundaria); }
+.trocar-modo input:checked + .deslize:before { transform: translateX(26px); }
+.trocar-modo .deslize.arredondar, .trocar-modo .deslize.arredondar:before { border-radius: 34px; }

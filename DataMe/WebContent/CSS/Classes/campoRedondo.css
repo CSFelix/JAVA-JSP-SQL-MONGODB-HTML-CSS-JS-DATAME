@@ -1,0 +1,3 @@
+/* usado nos botões de configurações  */
+.campoRedondo { border-radius: 50%; padding: 15px; font-size: 25px; outline: none; color: var(--font-awesome-icon-color); z-index: 20; border: 2px solid var(--cor-neon-primaria); }
+.campoRedondo:hover, .campoRedondo:active { background: var(--linear-dark); cursor: pointer; border: 2px solid var(--cor-neon-terciaria); }

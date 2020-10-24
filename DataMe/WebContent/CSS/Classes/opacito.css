@@ -1,0 +1,4 @@
+.opacito { opacity: 60%; }
+.opacito:focus, .opacito:hover { opacity: 80%; }
+.opacitoSecundario { opacity: 80%; }
+.opacitoSecundario:hover, .opacitoSecundario:focus { opacity: 100%; }
