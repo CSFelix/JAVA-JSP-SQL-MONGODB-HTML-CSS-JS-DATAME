@@ -1,0 +1,16 @@
+:root {
+	--cor-fundo-primario: #cbced1;
+	--cor-fundo-secundario: #414649;
+	
+	--cor-neon-primaria: #f32132;
+	--cor-neon-secundaria: #eb8787;
+	--cor-neon-terciaria: #b81818;
+	
+	--linear-light: #d9dce0;
+	--linear-dark: #b7b9bc;
+	
+	--shadow-light: #ffffff;
+	--shadow-dark: #57595a;
+	
+	--font-awesome-icon-color: #222222;
+}

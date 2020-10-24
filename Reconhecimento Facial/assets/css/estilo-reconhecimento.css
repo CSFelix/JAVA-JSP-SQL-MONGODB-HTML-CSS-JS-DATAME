@@ -1,0 +1,17 @@
+/* reset css */
+* { margin: 0px; padding: 0px; text-decoration: none; list-style: none; box-sizing: border-box; }
+
+/* body */
+body { 
+    background-color: var(--cor-fundo-primario); color: var(--cor-fundo-secundario);
+    width: 100vw; height: 100vh;
+    display: flex; justify-content: center; align-items: center;
+}
+
+/* canvas do vídeo */
+canvas { 
+    position: absolute; 
+    box-shadow: 0px 0px 10px var(--cor-neon-primaria),
+			    0px 0px 40px var(--cor-neon-primaria),
+			    0px 0px 80px var(--cor-neon-primaria);
+}
