@@ -28,6 +28,7 @@
 * Eclipse IDE;
 * MySQL 8 version or later;
 * Mongo DB 3.1 version or later;
+* FaceAPI
 
 ----
 ### `⚙️ Run ⚙️`
